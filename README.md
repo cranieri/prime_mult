@@ -1,7 +1,7 @@
 #Library to create a multiplication table of prime numbers
 
 ## Quick Start Guide
-The quickest way to try the library is to run the command line program "prime_test.rb"
+The quickest way to try the library is by running the command line program "prime_test.rb"
 
 ```ruby
 ruby prime_test.rb
@@ -13,6 +13,16 @@ you can pass a parameter representing the prime numbers you want the table to be
 
 ```ruby
 ruby prime_test.rb 20
+```
+
+If you want to try the library yourself below is a code snippet containing the steps to create a multiplication table
+of 20 prime numbers
+
+```ruby
+pn = PrimeBuilder.new(20)
+pn.create_prime_numbers
+pt = PrimeTable.new(pn.prime_numbers)
+pt.print_mult_table
 ```
 
 
