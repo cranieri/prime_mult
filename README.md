@@ -15,7 +15,7 @@ you can pass a parameter representing the prime numbers you want the table to be
 ruby prime_test.rb 20
 ```
 
-If you want to try the library yourself below is a code snippet containing the steps to create a multiplication table
+If you want to try the library yourself, below is a code snippet containing the steps to create a multiplication table
 of 20 prime numbers
 
 ```ruby
